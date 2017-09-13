@@ -23,7 +23,7 @@ public class Sys_direction : MonoBehaviour {
 	void Update () {
 		DownDirection ();
 
-		Debug.Log (direction_OBJ.transform.localPosition.y);
+		//Debug.Log (direction_OBJ.transform.localPosition.y);
 	}
 	//押しっぱなし用
 	public void PushDown(){
